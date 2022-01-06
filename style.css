@@ -5,12 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30pxpx;
+}
 .red-color{
     color: red;
 }
-section{
+.flx{
     display: flex;
-    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -35,4 +38,37 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.col{
+    color: red;
+}
+.exper{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 5px solid;
+    border-radius: 5%;
+}
+#Baby-dev{
+    border-image: linear-gradient(red, black);
+    border-image-slice: 1;  
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#Full-Stack{
+    border-image: linear-gradient(blue, black);
+    border-image-slice: 1;
+    
+}
+.lig{
+    color:teal;
+}
+footer{
+    text-align: center;
 }
